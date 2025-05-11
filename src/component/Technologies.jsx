@@ -20,7 +20,8 @@ const iconVarients = (duration) => ({
 });
 export const Technologies = () => {
   return (
-    <div className="border-b border-neutral-800 pb-24">
+    <div className="select-text">
+    <div className="border-b border-neutral-800 pb-35">
       <h1 className="my-20 text-center text-4xl">Technologies</h1>
       <div className="flex flex-wrap item-center justify-center gap-4">
         <motion.div 
@@ -66,6 +67,7 @@ export const Technologies = () => {
             <SiJavascript className="text-7xl text-yellow-300"/>
         </motion.div>
       </div>
+    </div>
     </div>
   )
 }

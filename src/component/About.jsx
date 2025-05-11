@@ -3,7 +3,7 @@ import {delay, motion} from "framer-motion";
 
 const About = () => {
     return (
-      <div className="text-white  pb-4 my-80">
+      <div className="text-white  pb-4 my-20">
         <h1 className=" text-center text-4xl">About Me</h1>
         
         <div className="flex flex-wrap">
@@ -28,7 +28,7 @@ const About = () => {
              initial={{ opacity:1,x: -100}}
              transition={{ duration: 1}}
             
-            className="my-2 max-w-xl py-6">I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications.
+            className="my-29 max-w-xl py-6">I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications.
           I have worked with a variety of technologies, including React, Node.js, MySQL, and MongoDB.
           My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges.
           I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions.

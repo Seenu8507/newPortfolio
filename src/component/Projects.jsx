@@ -7,10 +7,10 @@ import {delay, motion} from "framer-motion";
 const Projects = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
-      <h1 className="my-20 text-center text-4xl">Projects</h1>
+      <h1 className="my-50 text-center text-4xl">Projects</h1>
       <div>
         {PROJECTS.map((project, index) => (
-          <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
+          <div key={index} className="mb-8 flex flex-wrap lg:justify-center text-center">
             <div className='w-full lg:w-1/4 justify-center flex'>
             <motion.img 
             whileInView={{ opacity: 1, x: 0}}        
@@ -29,8 +29,8 @@ const Projects = () => {
           initial={{ opacity:1,x: -100}}
           transition={{ duration: 1}}
           className='w-full   max-w-xl lg:w-1/4 '>
-               <h6 className='mb-2 font-semibold'>{project.title}</h6>
-               <p className=' text-neutral-400 '>{project.description}</p>
+               <h3 className='mb-2 font-semibold'>{project.title}</h3>
+               <h3 className=' text-white my-15 '>{project.description}</h3>
 
           </motion.div>
           
@@ -52,8 +52,8 @@ const Projects = () => {
           initial={{ opacity:1,x: -100}}
           transition={{ duration: 1}}
           className='w-full   max-w-xl lg:w-1/4'>
-               <h6 className='mb-2 font-semibold'>Attendence Autommation RPA Uipath</h6>
-               <p className=' text-neutral-400'>An attendance automation system uses React and Tailwind for the frontend, Node.js for backend processing, and UiPath to trigger voice calls to absent users via Twilio. Attendance is uploaded, absentees are identified, and UiPath automates calls. The system ensures prompt communication and reduces manual follow-up for absentee management.</p>
+               <h6 className='mb-2 font-semibold'>Attendence Automation RPA Uipath</h6>
+               <p className=' text-white my-15 '>An attendance automation system uses React and Tailwind for the frontend, Node.js for backend processing, and UiPath to trigger voice calls to absent users via Twilio. Attendance is uploaded, absentees are identified, and UiPath automates calls. The system ensures prompt communication and reduces manual follow-up for absentee management.</p>
 
           </motion.div>
           <div className='w-full lg:w-1/4 justify-center flex'>
@@ -75,9 +75,9 @@ const Projects = () => {
           transition={{ duration: 1}}
           className='w-full   max-w-xl lg:w-1/4 '>
                <h6 className='mb-2 font-semibold'>Keylogger application</h6>
-               <p className='mb-4 text-neutral-400'>A keylogger application built with Python captures keystrokes typed on a keyboard. It runs in the background using libraries like pynput or keyboard, recording input into a file for monitoring or analysis. Such tools are often used for parental control, security audits, or unethical spying, depending on intent.
+               <h3 className='mb-4 text-white my-15'>A keylogger application built with Python captures keystrokes typed on a keyboard. It runs in the background using libraries like pynput or keyboard, recording input into a file for monitoring or analysis. Such tools are often used for parental control, security audits, or unethical spying, depending on intent.
 
-               </p>
+               </h3>
 
           </motion.div>
           </div>

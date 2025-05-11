@@ -13,8 +13,14 @@ export const EXPERIENCE = [
       description:
         "Collaborated with the team to create visually appealing emails, leading to an increase in conversions. Analyzed email performance metrics and implemented strategies, resulting in improved conversion rates.",
     },
+    {
+      year: "July 2024 - Aug 2024 (4 Weeks)",
+      title: "Full stack Developer Intern",
+      company: "Hazhtech Solutions",
+      description:
+        "building responsive web applications using React.js, Tailwind CSS, Next.js, and Node.js. Gained hands-on experience in both frontend and backend development, contributing to real-world project deployments.",
+    },
   ];
-
 export const PROJECTS = [
     {
       title: "Nike Clone Website", 
