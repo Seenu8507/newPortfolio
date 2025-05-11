@@ -16,7 +16,7 @@ const About = () => {
                 <img
                 
                 
-                className="rounded-4xl w-80 h-90 sm:h-72 sm:w-72 " src={Img} alt="about"></img>
+                className="rounded-4xl w-80 h-90 sm:h-50 sm:w-72 " src={Img} alt="about"></img>
 
              </div>
 
