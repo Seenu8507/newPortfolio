@@ -14,7 +14,7 @@ export const EXPERIENCE = [
         "Collaborated with the team to create visually appealing emails, leading to an increase in conversions. Analyzed email performance metrics and implemented strategies, resulting in improved conversion rates.",
     },
     {
-      year: "July 2024 - Aug 2024 (4 Weeks)",
+      year: "May 2025 - Nov 2025 (6 month)",
       title: "Full stack Developer Intern",
       company: "Hazhtech Solutions",
       description:

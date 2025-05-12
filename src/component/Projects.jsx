@@ -75,7 +75,7 @@ const Projects = () => {
           transition={{ duration: 1}}
           className='w-full   max-w-xl lg:w-1/4 '>
                <h6 className='mb-2 font-semibold'>Keylogger application</h6>
-               <h3 className='mb-4 text-white my-15'>A keylogger application built with Python captures keystrokes typed on a keyboard. It runs in the background using libraries like pynput or keyboard, recording input into a file for monitoring or analysis. Such tools are often used for parental control, security audits, or unethical spying, depending on intent.
+               <h3 className='mb-4 text-white my-10'>A keylogger application built with Python captures keystrokes typed on a keyboard. It runs in the background using libraries like pynput or keyboard, recording input into a file for monitoring or analysis. Such tools are often used for parental control, security audits, or unethical spying, depending on intent.
 
                </h3>
 
